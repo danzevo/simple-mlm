@@ -98,56 +98,17 @@
                     <input type="text" id="new_member_id" name="new_member_id" class="form-control" placeholder="New Member ID">
                 </div>
             </div>
+            <div class="d-flex flex-row justify-content-center align-items-center">
                 <div class="tree">
                     <ul>
                         <li>
                             <a href="#">Admin</a>
                             <ul id="content_result">
-                                {{-- @if(count($list) > 0)
-                                    @foreach($list as $row)
-                                        <li>
-                                            <a href="#">{{ $row['name'].' lv. '.$row['level'] }}<br>( Bonus : ${{ $row['bonus'] }} )</a>
-                                            @if(count($row['child']) > 0)
-                                                @foreach($row['child'] )
-                                            @endif
-                                        </li>
-                                    @endforeach
-                                @endif --}}
-                                {{-- <li>
-                                    <a href="#">2</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">2.1</a>
-
-                                        </li>
-                                        <li>
-                                            <a href="#">2.2</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">3</a>
-                                    <ul>
-                                        <li>
-                                        <a href="#">3.1</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">3.1.1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">3.1.2</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">3.2</a>
-                                        </li>
-                                    </ul>
-                                </li> --}}
                             </ul>
                         </li>
                     </ul>
                 </div>
+            </div>
         </div>
     </div>
     <script type="text/javascript">

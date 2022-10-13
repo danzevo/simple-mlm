@@ -21,4 +21,5 @@ From the user story above, the following system can do :
 1. copy .env.example .env
 2. composer Install
 3. php artisan migrate 
-4. php artisan serve
+4. php artisan key:generate
+5. php artisan serve
